@@ -1,4 +1,4 @@
-import lg from "../pageobjects/lg"
+import lg from "../pageobjects/lg.js"
 describe('',async()=>{
     it('',async()=>{
         await browser.url("https://webdriver.io/docs/autocompletion")

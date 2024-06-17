@@ -4,7 +4,7 @@ class launch{
         return $("//span[@class='DocSearch-Button-Placeholder']")
     }
     async wdio(){
-        await(await this.search).setValue("assertions")
+        await this.search.click()
     }
 
 }
