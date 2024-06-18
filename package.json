@@ -9,7 +9,8 @@
     "@wdio/spec-reporter": "^8.38.2"
   },
   "scripts": {
-    "RunTest":"npx run wdio ./wdio.conf.js"
+    "RunTest":"npx wdio run ./wdio.conf.js --spec ./test/specs/flipkt.js",
+    "all":"npx wdio run ./wdio.conf.js"
   },
   "dependencies": {
     "allure-commandline": "^2.29.0"
