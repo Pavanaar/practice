@@ -7,6 +7,10 @@ class launch{
     {
         return $("//input[@class='DocSearch-Input']")
     }
+    get abc()
+    {
+        return $("//input[@class='DocSearch-Input']")
+    }
     async wdio(){
         await this.search.click()
         await this.srh.setValue("assertion")
