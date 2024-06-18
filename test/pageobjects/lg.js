@@ -3,8 +3,13 @@ class launch{
     {
         return $("//span[@class='DocSearch-Button-Placeholder']")
     }
+    get srh()
+    {
+        return $("//input[@class='DocSearch-Input']")
+    }
     async wdio(){
         await this.search.click()
+        await this.srh.setValue("assertion")
     }
 
 }
