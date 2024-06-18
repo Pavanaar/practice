@@ -8,6 +8,9 @@
     "@wdio/mocha-framework": "^8.38.2",
     "@wdio/spec-reporter": "^8.38.2"
   },
+  "scripts": {
+    "RunTest":"npx run wdio ./wdio.conf.js"
+  },
   "dependencies": {
     "allure-commandline": "^2.29.0"
   }
