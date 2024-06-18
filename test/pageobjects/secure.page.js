@@ -11,6 +11,9 @@ class SecurePage extends Page {
     get flashAlert () {
         return $('#flash');
     }
+    get abcdAllert () {
+        return $('#flash');
+    }
 }
 
 export default new SecurePage();
